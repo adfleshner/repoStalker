@@ -1,14 +1,10 @@
-package com.bypassmobile.octo.image;
+package com.flesh.webservice.image;
 
 
 import android.content.Context;
 
 import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
 
 public final class ImageLoader {
 

@@ -18,3 +18,30 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+//All the different versions all in one place.
+ext{
+    supportLibVersion = "25.1.0"
+    civLibVersion = "2.1.0"
+    gsonLibVersion = "2.4"
+    picassoLibVersion = "2.5.2"
+    retroFitLibVersion = "1.2.2"
+    jodaTimeLibVersion = "2.9.7"
+}
+
+ext.deps = [
+        // Android
+        appcompat: "com.android.support:appcompat-v7:$supportLibVersion",
+        recyclerView: "com.android.support:recyclerview-v7:$supportLibVersion",
+        support:"com.android.support:support-v4:$supportLibVersion",
+        design:"com.android.support:design:$supportLibVersion",
+        //Henning Dodenhof
+        circleimageview:"de.hdodenhof:circleimageview:$civLibVersion",
+        //Gson
+        gson:"com.google.code.gson:gson:$gsonLibVersion",
+        //Square Up
+        piccasso:"com.squareup.picasso:picasso:$picassoLibVersion",
+        retrofit:"com.squareup.retrofit:retrofit:$retroFitLibVersion",
+        //Joda
+        jodatime:"joda-time:joda-time:$jodaTimeLibVersion"
+]

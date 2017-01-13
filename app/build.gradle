@@ -15,15 +15,11 @@ android {
 }
 
 dependencies {
-
-    compile 'com.google.code.gson:gson:2.4'
-    compile 'com.squareup.retrofit:retrofit:1.2.2'
-    compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'com.android.support:support-v4:25.1.0'
-    compile 'com.android.support:recyclerview-v7:25.1.0'
-    compile 'com.android.support:appcompat-v7:25.1.0'
-    compile 'de.hdodenhof:circleimageview:2.1.0'
-    compile 'com.android.support:design:25.1.0'
-    compile 'joda-time:joda-time:2.9.7'
+    compile deps.appcompat
+    compile deps.recyclerView
+    compile deps.support
+    compile deps.design
+    compile deps.circleimageview
+    compile project(path: ':webservice')
 }
 

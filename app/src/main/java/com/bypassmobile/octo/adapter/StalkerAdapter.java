@@ -11,14 +11,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bypassmobile.octo.R;
-import com.bypassmobile.octo.image.ImageLoader;
-import com.bypassmobile.octo.model.User;
-import com.squareup.picasso.NetworkPolicy;
+import com.flesh.webservice.image.ImageLoader;
+import com.flesh.webservice.model.User;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
  * Created by aaronfleshner on 1/11/17.

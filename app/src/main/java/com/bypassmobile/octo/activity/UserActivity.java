@@ -15,8 +15,8 @@ import android.widget.Toast;
 
 import com.bypassmobile.octo.R;
 import com.bypassmobile.octo.adapter.StalkerAdapter;
-import com.bypassmobile.octo.image.ImageLoader;
-import com.bypassmobile.octo.model.User;
+import com.flesh.webservice.image.ImageLoader;
+import com.flesh.webservice.model.User;
 import com.bypassmobile.octo.utils.SortingUtils;
 import com.squareup.picasso.Picasso;
 

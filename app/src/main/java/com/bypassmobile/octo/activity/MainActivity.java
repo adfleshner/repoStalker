@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import com.bypassmobile.octo.R;
 import com.bypassmobile.octo.adapter.StalkerAdapter;
-import com.bypassmobile.octo.model.User;
+import com.flesh.webservice.model.User;
 import com.bypassmobile.octo.utils.SortingUtils;
 
 import java.util.ArrayList;
@@ -81,7 +81,7 @@ public class MainActivity extends BaseActivity {
                     //usersAndAaron.add(new User("adfleshner","https://avatars.githubusercontent.com/u/3021508?v=3"));
                     //Collections.sort(usersAndAaron, new SortingUtils.UserAlphabeticalComparetor());
                     //mUsers = new ArrayList<>(usersAndAaron);
-                    
+
                     //sorts the list in alphabetical order
                     Collections.sort(users, new SortingUtils.UserAlphabeticalComparetor());
                     mUsers = new ArrayList<>(users);

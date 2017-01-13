@@ -1,4 +1,4 @@
-package com.bypassmobile.octo.model;
+package com.flesh.webservice.model;
 
 
 import android.os.Parcel;

@@ -1,6 +1,6 @@
 package com.bypassmobile.octo.utils;
 
-import com.bypassmobile.octo.model.User;
+import com.flesh.webservice.model.User;
 
 import java.util.Comparator;
 

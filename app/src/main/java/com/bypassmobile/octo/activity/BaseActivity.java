@@ -2,10 +2,10 @@ package com.bypassmobile.octo.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-
-import com.bypassmobile.octo.rest.GithubEndpoint;
+import com.flesh.webservice.rest.GithubEndpoint;
 
 import retrofit.RestAdapter;
+
 
 public class BaseActivity extends AppCompatActivity {
 

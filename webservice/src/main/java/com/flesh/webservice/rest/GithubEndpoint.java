@@ -1,7 +1,7 @@
-package com.bypassmobile.octo.rest;
+package com.flesh.webservice.rest;
 
 
-import com.bypassmobile.octo.model.User;
+import com.flesh.webservice.model.User;
 
 import java.util.List;
 

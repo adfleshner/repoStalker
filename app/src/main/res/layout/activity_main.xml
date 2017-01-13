@@ -19,11 +19,30 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/list"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:listitem="@layout/list_cell_user" />
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/list_cell_user" />
+
+            <include
+                android:id="@+id/loadingView"
+                android:visibility="gone"
+                layout="@layout/loading_view"/>
+
+            <include
+                android:id="@+id/emptyView"
+                android:visibility="gone"
+                layout="@layout/empty_view"/>
+
+
+        </FrameLayout>
+
+
 
     </android.support.v4.widget.SwipeRefreshLayout>
 
